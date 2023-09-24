@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Filter from './components/Filter'
 import Cards from './components/Cards'
 
-// from swarup
+
 
 const page = () => {
   return (
