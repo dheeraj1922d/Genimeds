@@ -1,5 +1,6 @@
 import React from "react";
 import SearchBtn from "./SearchBtn";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,7 @@ const Navbar = () => {
       {/* lists */}
       <div className="flex w-[446px] h-[41px] items-center justify-between px-[10px] py-0 relative mx-[36px]">
         <div className="relative w-fit [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[18px] text-center tracking-[0] leading-[28px] whitespace-nowrap">
-          Medicines
+          <Link href='/medicines'>Medicines</Link>
         </div>
         <div className="relative w-fit [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[18px] text-center tracking-[0] leading-[28px] whitespace-nowrap">
           Upload Prescription

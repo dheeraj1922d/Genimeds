@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cards = () => {
+const Card = ({ name, alt }) => {
   return (
     <div>
       <div className="flex h-[1064px] items-center gap-[20px] px-[75px] py-[25px] relative">
@@ -11,7 +11,7 @@ const Cards = () => {
             src="download-1.png"
           />
           <p className="relative self-stretch [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[32px] tracking-[0] leading-[normal]">
-            Vicks® VapoRub™ Topical Cough Suppressant
+            {name}
           </p>
           <div className="items-start px-0 py-[2px] w-full flex-[0_0_auto] flex gap-[20px] relative self-stretch">
             <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-black text-[32px] tracking-[0] leading-[normal]">
@@ -59,7 +59,7 @@ const Cards = () => {
             src="menthol-terpineol-oil-chlorothymol-camphor-eucalyptus-oil-soft-gel-capsules-1.png"
           />
           <p className="relative self-stretch [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[32px] tracking-[0] leading-[normal]">
-            Camphor, Menthol, and Eucalyptus Oil Topical Ointment
+            {alt}
           </p>
           <div className="items-start px-0 py-[2px] w-full flex-[0_0_auto] flex gap-[20px] relative self-stretch">
             <div className="relative w-fit mt-[-1.00px] [font-family:'Inter-SemiBold',Helvetica] font-semibold text-black text-[32px] tracking-[0] leading-[normal]">
@@ -107,4 +107,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Card;
