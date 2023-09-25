@@ -1,11 +1,10 @@
 "use client";
 
-import { useContext } from "react";
+import { useSearchStore } from "../store";
 import Card from "./Card";
-import { SearchCtx } from "../SearchContext";
 
 const Cards = () => {
-  const { results } = useContext(SearchCtx);
+  const results = useSearchStore((state) => state.results);
   return (
     <>
       {results.length !== 0 &&

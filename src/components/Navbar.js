@@ -15,7 +15,6 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* lists */}
       <div className="flex w-[446px] h-[41px] items-center justify-between px-[10px] py-0 relative mx-[36px]">
         <div className="relative w-fit [font-family:'Inter-Regular',Helvetica] font-normal text-black text-[18px] text-center tracking-[0] leading-[28px] whitespace-nowrap">
           <Link href="/medicines">Medicines</Link>
