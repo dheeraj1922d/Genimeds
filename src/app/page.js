@@ -1,11 +1,11 @@
 import React from "react";
-import Hompage from "@/components/Homepage/Hompage";
+import Homepage from "@/components/Homepage/Homepage";
 
 
 const page = () => {
   return (
     <div>
-      <Hompage/>
+      <Homepage/>
     </div>
   );
 };
