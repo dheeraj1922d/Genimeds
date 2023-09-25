@@ -13,19 +13,19 @@ export const meds = [
   },
   {
     id: 3,
-    name: "hayfev",
+    name: "limcee",
     type: "antihistamine",
-    alt: "we",
+    alt: "bunch-a-vitamins",
   },
   {
     id: 4,
     name: "parace",
-    type: "anal",
+    type: "",
     alt: "dont",
   },
   {
     id: 5,
-    name: "harabe",
+    name: "liaison",
     type: "a",
     alt: "like",
   },
