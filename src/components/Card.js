@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ name, alt }) => {
+const Card = ({ name, alt, img, imgAlt }) => {
   return (
     <div>
       <div className="flex h-[1064px] items-center gap-[20px] px-[75px] py-[25px] relative">
@@ -8,7 +8,7 @@ const Card = ({ name, alt }) => {
           <img
             className="relative w-[250px] h-[250px] object-cover"
             alt="Download"
-            src="download-1.png"
+            src={img}
           />
           <p className="relative self-stretch [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[32px] tracking-[0] leading-[normal]">
             {name}
@@ -56,7 +56,7 @@ const Card = ({ name, alt }) => {
           <img
             className="relative w-[375px] h-[250px] object-cover"
             alt="Menthol terpineol"
-            src="menthol-terpineol-oil-chlorothymol-camphor-eucalyptus-oil-soft-gel-capsules-1.png"
+            src={imgAlt}
           />
           <p className="relative self-stretch [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[32px] tracking-[0] leading-[normal]">
             {alt}
