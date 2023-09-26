@@ -1,33 +1,35 @@
 export const meds = [
   {
     id: 1,
-    name: "para",
+    name: "Vicks Vaporub",
     type: "analgesic",
-    alt: "some",
+    img: "./images/vicks.jpg",
+    alt: "Camphor Menthol Eucalyptus Oil Topical ointment",
+    imgAlt: "./images/vicks-alt.jpg"
   },
   {
     id: 2,
-    name: "digene",
+    name: "Venlafaxim",
     type: "gastro",
-    alt: "thing",
+    img: "./images/venlafaxim.jpg",
+    alt: "Zoloft (Sertraline)",
+    imgAlt: "./images/venlafaxim-alt.jpg"
   },
   {
     id: 3,
-    name: "limcee",
+    name: "Limcee",
     type: "antihistamine",
-    alt: "bunch-a-vitamins",
+    img: "./images/limcee.jpg",
+    alt: "Celin",
+    imgAlt: "./images/limcee-alt.jpg"
   },
   {
     id: 4,
-    name: "parace",
+    name: "Calpol",
     type: "",
-    alt: "dont",
-  },
-  {
-    id: 5,
-    name: "liaison",
-    type: "a",
-    alt: "like",
+    img: "./images/calpol.jpg",
+    alt: "Dolo-500",
+    imgAlt: "./images/calpol-alt.jpg"
   },
 //   {
 //     id: 6,
