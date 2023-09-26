@@ -2,13 +2,13 @@
 
 import React from "react";
 import { useSearchStore } from "../store";
+import { FaSearch} from 'react-icons/fa'
 
 const SearchBtn = () => {
   const search = useSearchStore((state) => state.search);
   return (
     <div className="flex h-[40px] w-[500px] items-center gap-[10px] p-[10px] pr-0 relative bg-[#00000005] rounded-[8px] overflow-hidden border border-solid border-[#00000040] ml-[100px]">
-      <img className="w-[18px] h-[18px]" alt="Vector" src="vector.svg" />
-
+      <FaSearch/>
       <input
         onChange={(e) => search(e)}
         type="text"
