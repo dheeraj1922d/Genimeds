@@ -1,15 +1,17 @@
-import React from "react";
+import { Suspense } from "react";
 
 const Card = ({ name, alt, img, imgAlt }) => {
   return (
     <div>
       <div className="flex h-[1064px] items-center gap-[20px] px-[75px] py-[25px] relative">
         <div className="flex-col w-[496px] items-center px-[20px] py-[10px] bg-white shadow-[0px_2px_25px_#0000001f] flex gap-[20px] relative self-stretch">
-          <img
-            className="relative w-[250px] h-[250px] object-cover"
-            alt="Download"
-            src={img}
-          />
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <img
+              className="relative w-[250px] h-[250px] object-cover"
+              alt="Download"
+              src={img}
+            />
+          </Suspense>
           <p className="relative self-stretch [font-family:'Inter-Bold',Helvetica] font-bold text-black text-[32px] tracking-[0] leading-[normal]">
             {name}
           </p>
